@@ -1,4 +1,4 @@
-export const SONGS_API = "https://cms.samespace.com/items/songs";
+export const SONGS_API = "https://cms.samespace.com/items/songs"; //API for songs
 
 function formatDuration(seconds) {
     const mins = Math.floor(seconds / 60);
