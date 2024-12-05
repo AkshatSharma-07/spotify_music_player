@@ -16,7 +16,7 @@ function App() {
   const [music, setMusic] = useState(1);
   const [color, setColor] = useState("#331A05");
   const [drawerOpen, setDrawerOpen] = useState(false);
-  const isSmallScreen = useMediaQuery('(max-width:960px)'); // Adjust the breakpoint as needed
+  const isSmallScreen = useMediaQuery('(max-width:960px)'); 
 
   const filterTopTracks = (filterdata) => {
     return filterdata?.filter(track => track?.top_track);
